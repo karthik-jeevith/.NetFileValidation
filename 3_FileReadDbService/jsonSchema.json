@@ -1,0 +1,61 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "BundleID": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "Messages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Message"
+          }
+        }
+      },
+      "required": [
+        "BundleID",
+        "Messages"
+      ],
+      "title": "Welcome"
+    },
+    "Message": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "PaymentDate": {
+          "type": "string",
+          "minLength": 10
+        },
+        "PaymentID": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "BundleID": {
+          "type": "integer",
+           "minimum": 1
+        },
+        "CPR": {
+          "type": "string",
+          "minLength": 10
+        },
+        "Amount": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "Amount",
+        "BundleID",
+        "CPR",
+        "PaymentDate",
+        "PaymentID"
+      ],
+      "title": "Message"
+    }
+  }
+}
