@@ -1,0 +1,68 @@
+{
+  "BundleID": 211,
+  "Messages": [
+    {
+      "PaymentDate": "03/02/2003",
+      "PaymentID": 7469874,
+      "BundleID": 211,
+      "CPR": "2206969873",
+      "Amount": 1660
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000004,
+      "BundleID": 43,
+      "CPR": "2203180001",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000005,
+      "BundleID": 43,
+      "CPR": "2203180002",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000006,
+      "BundleID": 43,
+      "CPR": "2203180003",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000007,
+      "BundleID": 43,
+      "CPR": "2203180004",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000008,
+      "BundleID": 43,
+      "CPR": "2203180005",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000009,
+      "BundleID": 43,
+      "CPR": "2203180006",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000010,
+      "BundleID": 43,
+      "CPR": "2203180007",
+      "Amount": 720
+    },
+    {
+      "PaymentDate": "03/10/2018",
+      "PaymentID": 6000011,
+      "BundleID": 43,
+      "CPR": "2203180008",
+      "Amount": 720
+    }
+  ]
+}
